@@ -19,6 +19,8 @@ void loop() {
   duration = pulseIn (ecoPin, HIGH); // Time
   distance = duration * 0.034/2;
   Serial.print ("Distance: ");
-  Serial.println (distance);
+  Serial.print (distance);
+  Serial.print (" cm");
+  Serial.println ();
 
 }
